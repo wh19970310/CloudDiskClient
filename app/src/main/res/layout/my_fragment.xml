@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".main.MyFragment">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/textViewUserId"
+            android:layout_width="match_parent"
+            android:gravity="center"
+            android:layout_height="wrap_content"
+            android:textSize="27dp"
+            android:paddingTop="32dp"
+            android:textColor="#000000"
+            android:text="昵称： " />
+
+        <TextView
+            android:id="@+id/textViewFreeSpace"
+            android:layout_width="match_parent"
+            android:gravity="center"
+            android:layout_height="wrap_content"
+            android:textSize="27dp"
+            android:paddingTop="32dp"
+            android:textColor="#000000"
+            android:text="剩余空间： " />
+
+        <TextView
+            android:id="@+id/textViewUpdateInfo"
+            android:layout_width="match_parent"
+            android:gravity="center"
+            android:layout_height="wrap_content"
+            android:textSize="27dp"
+            android:paddingTop="32dp"
+            android:textColor="#00BCD4"
+            android:text="@string/update_info" />
+
+        <TextView
+            android:id="@+id/textViewUpdateNickName"
+            android:layout_width="match_parent"
+            android:gravity="center"
+            android:layout_height="wrap_content"
+            android:textSize="27dp"
+            android:paddingTop="32dp"
+            android:textColor="#00BCD4"
+            android:text="@string/search_file" />
+
+        <TextView
+            android:id="@+id/textViewInputShareLink"
+            android:gravity="center"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="27dp"
+            android:paddingTop="32dp"
+            android:textColor="#00BCD4"
+            android:text="@string/input_share_link" />
+
+        <TextView
+            android:id="@+id/textViewMyShareLink"
+            android:layout_width="match_parent"
+            android:gravity="center"
+            android:layout_height="wrap_content"
+            android:textSize="27dp"
+            android:paddingTop="32dp"
+            android:textColor="#00BCD4"
+            android:text="@string/my_share_link" />
+
+        <TextView
+            android:id="@+id/textViewSignOut"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:textSize="27dp"
+            android:paddingTop="32dp"
+            android:textColor="#00BCD4"
+            android:text="@string/sign_out" />
+
+        <TextView
+            android:id="@+id/textViewAbout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:textSize="27dp"
+            android:paddingTop="32dp"
+            android:textColor="#00BCD4"
+            android:text="@string/about" />
+
+    </LinearLayout>
+</FrameLayout>

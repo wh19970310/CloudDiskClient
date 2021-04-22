@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">suyunpan</string>
+    <string name="update_info"><u>更新我的信息</u></string>
+    <string name="search_file"><u>修改昵称</u></string>
+    <string name="input_share_link"><u>输入分享链接</u></string>
+    <string name="my_share_link"><u>我的分享链接</u></string>
+    <string name="sign_out"><u>退出登录</u></string>
+    <string name="about"><u>关于软件</u></string>
+</resources>

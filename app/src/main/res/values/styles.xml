@@ -1,0 +1,21 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">#00BCD4</item>
+        <item name="colorPrimaryDark">#00BCD4</item>
+        <item name="colorAccent">#00BCD4</item>
+    </style>
+
+    <!--<style name="BottomNavigationViewTheme" parent="Widget.Design.BottomNavigationView">-->
+    <!--<item name="android:colorBackground">#FFEB3B</item>-->
+    <!--</style>-->
+
+
+    <style name="ToolbarPopupTheme" parent="Widget.AppCompat.Light.PopupMenu.Overflow">
+        <item name="android:colorBackground">#FF5722</item>  <!-- 设置背景颜色-->
+        <item name="overlapAnchor">false</item>  <!--设置不覆盖锚点-->
+    </style>
+
+</resources>

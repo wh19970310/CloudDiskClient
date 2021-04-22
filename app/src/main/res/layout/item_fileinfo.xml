@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+
+    android:descendantFocusability="blocksDescendants"
+    android:orientation="horizontal"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingRight="6dp">
+
+    <ImageView
+        android:contentDescription="TODO" android:focusable="false"
+        android:id="@+id/imgFileType"
+        android:layout_width="55dp"
+        android:layout_height="55dp"
+        android:paddingLeft="3dp"
+        android:paddingRight="4dp" />
+
+    <LinearLayout
+        android:focusable="false"
+        android:layout_width="0dp"
+        android:layout_height="55dp"
+        android:orientation="vertical"
+        android:layout_weight="3">
+
+        <TextView
+            android:focusable="false"
+            android:id="@+id/textFileName"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="2"
+            android:textSize="18dp" />
+
+        <TextView
+            android:focusable="false"
+            android:id="@+id/textFileSize"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:textSize="15dp" />
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/textFileTransferStat"
+        android:layout_width="64dp"
+        android:layout_height="wrap_content"
+        android:focusable="false"
+        android:text="下载完成"
+        android:textColor="#FF5722"
+        android:textSize="16dp" />
+
+    <Button
+        android:focusable="false"
+        android:id="@+id/btnFileOperation"
+        android:layout_width="81dp"
+        android:layout_height="55dp"
+        android:text="删除文件"
+        android:textSize="15dp" />
+
+
+</LinearLayout>

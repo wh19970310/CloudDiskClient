@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:paddingLeft="20dp"
+    android:paddingRight="20dp">
+
+    <EditText
+        android:id="@+id/editShareLink"
+        android:layout_width="match_parent" android:inputType="" 
+        android:layout_height="wrap_content"
+        android:hint="请输入分享链接"></EditText>
+
+    <EditText
+        android:id="@+id/editShareCode"
+        android:layout_width="match_parent" android:inputType="" 
+        android:layout_height="wrap_content"
+        android:hint="请输入分享码"></EditText>
+
+</LinearLayout>
